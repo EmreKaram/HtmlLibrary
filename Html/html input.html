@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 FORMS VE Inputs</title>
+</head>
+<body>
+    
+    <form action="islemler.php" method="get veya post">
+        <!-- Action ile backenddeki dosyanızı gösterebilirisiniz .Metot ilede yapacağınız işlemin türünü seçebilir -->
+        <label for="Name">Name : </label>
+        <input type="text" id="Name" name="name"><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" ><br>
+        <label for="password" >Password</label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date"><br>
+
+        Gender <br>
+        Male 
+        <input type="radio" name="gender" value="Male">
+        Famale
+        <input type="radio"name="gender"value="Famale">
+        Other
+        <input type="radio" name="gender" value="Other" checked> <br>
+
+        Hobbies <br>
+        Technology
+        <input type="checkbox" name="tech" id="tech">
+        Music
+        <input type="checkbox" name="music" id="music" checked>
+        Art  
+        <input type="checkbox" name="art" id="art"> <br>
+
+        Degree<br>
+
+        <!-- <input type="image" name="tel" src="" > pic -->
+
+        <select name="degree" id="artt" class="trss" >
+         
+        <option value="bachelor">Lisans </option>
+        <option value="msc">Yüksek Lisans</option>
+        <option value="phd" selected >Doktora</option>
+        
+        </select>
+
+        <textarea name="Adres" id="adres" rows="10" cols="20" placeholder="Adres Bi" > </textarea>  <br>
+
+        <button type="submit">Gönder</button>
+        <input type="submit" value="Submit">
+        <input type="reset" value="sıfırla"> <br>
+
+
+
+
+    </form>
+
+
+
+
+
+</body>
+</html>
